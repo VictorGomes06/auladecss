@@ -8,7 +8,7 @@ body{
 
     width: 100vw;
     height: 100vh;
-    background-image: url(background.png);
+    background-image: url(imggif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,59 +17,142 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+   flex-direction: column;
 
 
 }
 
-main{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
-h1{
-    color: #ffffff;
-    font-size: clamp(40px, 10vw ,120px);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+
+main {
     
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   flex-direction: column;
+    gap: 25px;
+    flex-grow: 1;
 }
+
+
+
+h1{
+    font-size: clamp(40px, 10vw ,120px);
+    font-family:serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #3bf8ff, 0 0 82px #3bf8ff, 0 0 92px #3bf8ff, 0 0 102px #3bf8ff, 0 0 151px #3bf8ff;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
 
 .apresentacao{
-
-    color: #ffffff;
-    font-size: clamp(20px,5vm,60px);
-    font-family:'mostserrat', sans-serif;
+    font-family: serif;
+    color: #a1caff;
     font-weight: 400;
-    font-style: italic;
-}
-#informacoes {
-    display: line;
+    font-size: clamp(20px, 5vw, 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 50;
 
-    color: #ffffff;
-    width: 80px;
-    height: 25px;
-    background-color:#000000 ;
+}
+
+a:link{
+    text-decoration: none;
+}
+button {
+  
     border-style: none;
-    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    border: 0px;
+    border-radius: 30px;
+    font-family:'Ubuntu Mono', monospace;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5px;
+    
+  
+    
 }
-#informacoes2{
-    display: line;
-
+button.git{
     color: #ffffff;
-    width: 80px;
-    height: 25px;
-    background-color: rgb(66, 145, 209);
-    border-style: none;
-    border-radius: 5px;
+    background-color: #000000;
+}
+button.linkedin{
+    background-color: #0a66c2;
+    color: white;
+}
+button.instagram{
+    
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%); 
+    color: white;
+    
+}
+button.git:hover {
+    
+    background-color:#3bf8ff42;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #3bf8ff;
+    color: #3bf8ff;
+    border: 2px solid #3bf8ff;
 
 }
-#informacoes3{
+button.linkedin:hover {
+    background-color: #3bf8ff42;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #3bf8ff;
+    color: #3bf8ff;
+    border: 2px solid #3bf8ff;
+
+}
+button.instagram:hover {
+    
+    background-color: #3bf8ff42;
+    transition: all 0.15s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3em #3bf8ff;
+    color: #3bf8ff;
+    border: 2px solid #3bf8ff;
+
+}
+div#linha {
+    width: 30vw;
+    border: 1px solid #ffffffbb;
+
+}
+footer{
     color: #ffffff;
-    width: 80px;
-    height: 25px;
-    background-color: ;
 }
 
-
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
